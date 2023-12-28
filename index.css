@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1{
+    text-align: center;
+    color: palevioletred;
+}
+label,button{
+    display: block;
+}
+label h2{
+    text-align: center;
+    margin-top: 20px;
+}
+.container{
+    height:60vh;
+    width:70vh;
+    /* border: 2px solid red; */
+    display: flex;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: center; */
+}
+body{
+    display: flex;
+    /* border: 2px solid green; */
+    align-items: center;
+    height: 100vh;
+    background-color: aqua;
+    justify-content: center;
+}
+.container input{
+    margin-top: 10px;
+    width:40vh ;
+    border-radius: 10px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+} 
+form button{
+    text-align: center;
+    height: 40px;
+    width:20vh;
+    border-radius: 5px;
+    outline: none;
+    background-color: blue;
+    border: none;
+    margin-top: 20px;
+    margin: auto;
+
+}
+.correct{
+    color:green;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 800;
+}
+.yours{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.comp{
+    color: red;
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
+.guess{
+    color: rgb(255, 0, 200);
+    font-size: 20px;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 600;
+}
+.score{
+    color: black;
+    font-size: 40px;
+    text-align: center;
+    font-style: italic;
+    margin-top: 20px;
+    font-weight: 600;
+
+}
