@@ -20,6 +20,8 @@ const EventListener = (e)=>{
 
     if(guessLeft<=0){
         document.querySelector(".score").innerText=`Final Score:-${yoursScore}`;
+                sumbit.innerText="New Game";
+
         document.querySelector(".correct").innerText="Play New Game,,You Have Use All your Guesses";
         reset();
 
